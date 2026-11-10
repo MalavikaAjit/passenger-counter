@@ -13,3 +13,5 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+document.getElementById("increment-btn").addEventListener("click", increment)
+document.getElementById("save-btn").addEventListener("click", save)
